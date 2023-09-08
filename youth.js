@@ -17,7 +17,7 @@ def get_coupon1():
 'Accept' : 'application/json, text/plain, */*',
 'Referer' : 'https://market.waimai.meituan.com/',
 'Host' : 'promotion.waimai.meituan.com',
-'User-Agent' : 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.32(0x18002038) NetType/WIFI Language/zh_CN`,
+'User-Agent' : 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.32(0x18002038) NetType/WIFI Language/zh_CN',
 'Accept-Encoding' : 'gzip, deflate, br',
 'Accept-Language' : 'zh-CN,zh-Hans;q=0.9'
 }
