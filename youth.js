@@ -10,8 +10,17 @@ import requests
 def get_coupon1():
     cookies = {}
 
-    headers = {}
-
+    headers = {
+'Origin' : 'https://market.waimai.meituan.com',
+#'Cookie' : `_lxsdk_s=18a756d5635-5-50-9b6%7C2426246373%7C508; isUuidUnion=true; iuuid=1157506248112017408; WEBDFPID=uuzyuvu3v07951w117y6001x678x682381z245vx0w597958vx3y9500-2009545212299-1694185212299IKQWIWG868c0ee73ab28e1d0b03bc83148500063492; _lx_utm=utm_source%3Dwxshare%26utm_term%3D512946; isid=AgG9HARjLwdVWH0AHs4P_0UQTlrEEkP6H1DjudV1zH58-jS5jIRHdHIcB9XO31lMMwTySO4RYkPrSgAAAACvGgAAbxrcrhu4UAizllywiw-DWJi0PZnsAR6nl9pYGWFoeggJtWEFHwaoRwFSry4Og52T; mt_c_token=AgG9HARjLwdVWH0AHs4P_0UQTlrEEkP6H1DjudV1zH58-jS5jIRHdHIcB9XO31lMMwTySO4RYkPrSgAAAACvGgAAbxrcrhu4UAizllywiw-DWJi0PZnsAR6nl9pYGWFoeggJtWEFHwaoRwFSry4Og52T; oops=AgG9HARjLwdVWH0AHs4P_0UQTlrEEkP6H1DjudV1zH58-jS5jIRHdHIcB9XO31lMMwTySO4RYkPrSgAAAACvGgAAbxrcrhu4UAizllywiw-DWJi0PZnsAR6nl9pYGWFoeggJtWEFHwaoRwFSry4Og52T; thirdlogin_token=AgG9HARjLwdVWH0AHs4P_0UQTlrEEkP6H1DjudV1zH58-jS5jIRHdHIcB9XO31lMMwTySO4RYkPrSgAAAACvGgAAbxrcrhu4UAizllywiw-DWJi0PZnsAR6nl9pYGWFoeggJtWEFHwaoRwFSry4Og52T; u=2426246373; userId=2426246373; openid=; token=AgFfIunT11zPv_5Kwc4Dh8KpG8OQIyzhvuCZ4IqVFqG_Gdnjh3jaYr8GeXqjLNgJyZ2VzkxB9UsBcAAAAABeGgAANo8h-kKrzH9t2wehqQt0voA7EV7TGO6NtcsuIosGPIw3vc1NfJQS-qjas-yTk8Jh; userid=2426246373; unpl=v1_Dp-bnwKXZ38231Akse1v8F3Dz1XR1t8Pr8PGZKyhE8dA4vpers-QlFTzNKeWXTOT; userInfo=%7B%22avatarUrl%22%3A%22https%3A%2F%2Fimg.meituan.net%2Favatar%2Fe7cfe8759a4eb6c7e43b807c1d9741a7105054.jpg%22%2C%22nickName%22%3A%22Thamas7%22%2C%22source%22%3A%22mtInfo%22%7D; _lxsdk=1157506248112017408; ta.uuid=1700162107276607548; _lxsdk_cuid=18a754eae8bc8-0f348b73f59fe48-564d2652-5a900-18a754eae8b15`,
+'Connection' : 'keep-alive',
+'Accept' : 'application/json, text/plain, */*',
+'Referer' : 'https://market.waimai.meituan.com/',
+'Host' : 'promotion.waimai.meituan.com',
+'User-Agent' : 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.32(0x18002038) NetType/WIFI Language/zh_CN`,
+'Accept-Encoding' : 'gzip, deflate, br',
+'Accept-Language' : 'zh-CN,zh-Hans;q=0.9'
+}
     now_time2 = datetime.now()
     sj = now_time2.strftime("%H:%M")
     if '09:50' <= sj <= '10:10':
